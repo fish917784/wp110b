@@ -1,0 +1,20 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image:url(amyiu-7y157.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.login {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0,5);
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
