@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陳勝傑的個人網站</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- //jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- //datatables -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.2/js/jquery.dataTables.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.2/css/jquery.dataTables.css">
+</head>
+    <body>
+        <div id="nav-holder" class="nav-holder">
+            <ul class="nav">
+                <li><a href="homework.html">首頁</a></li>                       
+                <li><a href="next.html">按鈕</a></li>
+                <li><a href="clock.html">時間</a></li>
+                <li><a href="about.html" >關於</a></li>
+                <li><a href="#home">往上走</a></li> 
+            </ul>
+        </div>
+    <div class="header-holder" id="home">
+        <div class="header-word-holder">
+                <h1 >歡迎到我的網站</h1>
+                <p  class="header-text">你不是魚 你怎麼知道魚的快樂</p>
+        </div>
+    </div > 
+    <table id="table_id" class="display">
+        <thead>
+            <tr>
+                <th>欄位</th>
+                <th>內容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>學期</td>
+                <td>110 學年度下學期</td>
+            </tr>
+            <tr>
+                <td>學生</td>
+                <td>陳勝傑</td>
+            </tr>
+            <tr>
+                <td>學號末兩碼</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>教師</td>
+                <td>陳鍾誠</td>
+            </tr>
+            <tr>
+                <td>學校科系</td>
+                <td>金門大學資訊工程系</td>
+            </tr>
+            <tr>
+                <td>課程內容</td>
+                <td>github</td>
+            </tr>
+        </tbody>
+    </table>
+    </body>
+    <script>
+        $(document).ready( function () {
+        $('#table_id').DataTable();
+        } );
+    </script>
+</html>

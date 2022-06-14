@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    } 
+    
+    body {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    } 
+    
+    .container-clock {
+    /* 置中 */
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 340px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    } 
+    .time {
+    font-size: 50px;
+    font-weight: 600px;
+    text-align: center;
+    } 
+    
+    .date {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    } 
+    
+    #period {
+    font-size: 20px;
+    }
