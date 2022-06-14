@@ -8,18 +8,35 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    position: relative;
+    background-color: transparent;
+    border: 3px solid rgb(0, 0, 0);
 }
 .login {
     position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0,0,0,0,5);
+    background: rgba(0,0,0,0,0);
     text-align: center;
     color: #fff;
     padding: 30px;
 }
+label{
+    font-size:20px;
+    color: rgb(12, 12, 12);
+}
+h2{
+    color:#000;
+}
 button {
+    border: 0;
+    padding: 4px 8px;
+    font-size: 18px;
+    background: #fff;
+    color: #000;
+}
+input {
     border: 0;
     padding: 4px 8px;
     font-size: 18px;
