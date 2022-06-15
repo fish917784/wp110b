@@ -5,10 +5,9 @@
 body {
     background-color: rgb(255, 255, 255);
     height: 100vh;
-} 
+    } 
     
 .container-clock {
-    /* 置中 */
     position: relative;
     top: 10%;
     left: 50%;
